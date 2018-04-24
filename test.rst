@@ -62,6 +62,7 @@
    "esitoPresaInCarico",1,"s","1..1",,"Struttura che contiene le informazioni relative alla presa in carico delle informazioni trasmesse"
    "identificativoFlusso",2,"an","1..1","1..70","Identificativo del flusso così come definito al § 8.5.2.1."
    "codiceEsitoPresaInCarico",2,"n","1..1",1,"Rappresenta il codice circa l’esito della presa in carico del flusso di avvisi digitali. Può assumere uno dei seguenti valori:
+   
    - 0  Preso in carico
    - 1  File compresso illeggibile
    - 2  Errori di parsing file XML
@@ -69,4 +70,4 @@
    - 4  Errore di validazione extra XSD
    - 5  Invio duplicato
    - 6  Altri errori"
-"descrizioneEsitoPresaInCarico",2,"an","0..1","1..140","Testo descrittivo dell’errore rilevato. Obbligatorio se l'esito è diverso da 0."
+   "descrizioneEsitoPresaInCarico",2,"an","0..1","1..140","Testo descrittivo dell’errore rilevato. Obbligatorio se l'esito è diverso da 0."
