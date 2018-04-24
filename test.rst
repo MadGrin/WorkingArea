@@ -5,6 +5,7 @@
    "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
    "identificativoDominio",2,"an","1..1","1..35","Campo alfanumerico contenente il codice fiscale dell'Ente Creditore che invia l'elenco degli avvisi Digitali."
    "elencoCompleto",2,"n","1..1",1,"Indica se l'elenco fornito contiene tutte le posizioni di debito per quel soggetto debitore presso l'Ente Creditore. Può assumere i seguenti valori:
+   
    - 0 Elenco completo
    - 1 Elenco incompleto"
    "numeroAvvisi",2,"n","1..1",3,"Numero avvisi presenti nell'elenco."
