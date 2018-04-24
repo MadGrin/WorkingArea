@@ -1,8 +1,7 @@
 .. csv-table:: **Tabella 28 - Componenti del parametro elencoAvvisiDigitali**
-   :header: "Dato","Liv","Genere","Occ","Len","Contenuto"
+   :header: "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
    :widths: 15, 10, 30,10,10,10
- 
-   "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
+   
    "identificativoDominio",2,"an","1..1","1..35","Campo alfanumerico contenente il codice fiscale dell'Ente Creditore che invia l'elenco degli avvisi Digitali."
    "elencoCompleto",2,"n","1..1",1,"Indica se l'elenco fornito contiene tutte le posizioni di debito per quel soggetto debitore presso l'Ente Creditore. Può assumere i seguenti valori:
    
