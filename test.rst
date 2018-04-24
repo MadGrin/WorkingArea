@@ -29,13 +29,13 @@
    "identificativoUnivocoSoggetto",2,"s","1..1",,"Aggregazione che riporta le informazioni concernenti l’identificazione fiscale del pagatore."
    "tipoIdentificativoUnivoco",3,"an","1..1",1,"Campo alfanumerico che indica la natura del pagatore, può assumere i seguenti valori:
    
-   - **F**= Persona fisica
-   - **G**= Persona Giuridica."
+   - **F** = Persona fisica
+   - **G** = Persona Giuridica."
    "codiceIdentificativoUnivoco",3,"an","1..1","1..35","Campo alfanumerico che può contenere il codice fiscale o, in alternativa, la partita IVA del pagatore."
    "azioneDiAggiornamento",2,"an","1..1",1,"Indica il tipo di aggiornamento richiesto:
    
-   - **A**= Attivazione
-   - **D**= disattivazione"
+   - **A** = Attivazione
+   - **D** = disattivazione"
    
 .. csv-table:: **Tabella 26 - Componenti del parametro avvisoDigitale**
    :header: "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
