@@ -10,4 +10,4 @@
 .. csv-table:: Frozen Delights! 
    :header: "Dato","Liv","Genere","Occ","Len","Contenuto"
    :widths: 15, 10, 30,10,10,10
-   :file: tab28-cap5.CSV
+   :file: "tab28-cap5.CSV"
