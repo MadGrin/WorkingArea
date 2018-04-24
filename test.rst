@@ -42,3 +42,15 @@
    :widths: 15, 10, 30,10,10,10
    
    "avvisoDigitaleWS",2,"S","1..1","","Contiene le stesse informazioni definite per la struttura avvisoDigitale, specificata nella Tabella 19 al § 5.4.1."
+   
+.. csv-table:: **Tabella 25 - Componenti del parametro esitoAvvisoDigitaleWS**
+   :header: "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
+   :widths: 15, 10, 30,10,10,10
+   
+   "esitoAvvisoDigitaleWS",2,"S","1..1","","Contiene le stesse informazioni specificate per la struttura esitoAvvisoDigitale, definita nella Tabella 20 al § 5.4.1."
+   
+.. csv-table:: **Tabella 24 - Componenti del parametro avvisoDigitaleWS**
+   :header: "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
+   :widths: 15, 10, 30,10,10,10
+   
+   "avvisoDigitaleWS",2,"S","1..1","","Contiene le stesse informazioni definite per la struttura avvisoDigitale, specificata nella Tabella 19 al § 5.4.1."
