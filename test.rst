@@ -9,9 +9,13 @@
    - 0 Elenco completo
    - 1 Elenco incompleto"
    "numeroAvvisi",2,"n","1..1",3,"Numero avvisi presenti nell'elenco."
-   "avvisoDigitale",2,"s","0..n",,"Struttura facoltativa che contiene le informazioni dell'avviso digitale in modalità pull. La struttura è obbligatoria se l'elemento numeroAvvisi e maggiore di 0."
+   "avvisoDigitale",2,"s","0..n",,"Struttura facoltativa che contiene le informazioni dell'avviso digitale in modalità pull. La struttura è **obbligatoria** se l'elemento **numeroAvvisi e maggiore di 0**."
    "codiceAvviso",3,"an","1..1",18,"Codice dell’avviso di pagamento predisposto secondo quanto indicato al § 7.4.1 delle SANP. Contiene il codice IUV."
-   "statoPagamento",3,"an","1..1","1.2","00 – L’avviso è pagabile 01 – L’avviso è già stato pagato 02 – L’avviso non è pagabile"
+   "statoPagamento",3,"an","1..1","1.2","
+   
+   - 00 L’avviso è pagabile 
+   - 01 L’avviso è già stato pagato
+   - 02 L’avviso non è pagabile"
    "dataScadenzaAvviso",3,"an","0..1",10,"Indica la data, successiva alla data di scadenza sino alla quale si ritiene valido l'avviso, secondo il formato ISO 8601 [YYYY]-[MM]-[DD]"
    "importoAvviso",3,"an","1..1","3..12","Campo numerico (due cifre per la parte decimale, il separatore dei centesimi è il punto “.”), indicante l’importo relativo alla somma da versare. Deve essere maggiore di “0.10”."
    "descrizionePagamento",3,"an","1..1","1..249","Testo libero a disposizione dell’Ente per descrivere le motivazioni del pagamento."
